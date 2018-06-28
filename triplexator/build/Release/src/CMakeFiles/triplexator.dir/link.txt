@@ -1,1 +1,0 @@
-/usr/bin/g++-4.7  -fPIC  -fopenmp -O3 -DNDEBUG  -shared -Wl,-soname,libtriplexator.so -o ../../../lib/libtriplexator.so CMakeFiles/triplexator.dir/triplexator.cpp.o CMakeFiles/triplexator.dir/edlib.cpp.o -lboost_iostreams -lrt 
