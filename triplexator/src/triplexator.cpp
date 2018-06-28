@@ -386,8 +386,8 @@ namespace SEQAN_NAMESPACE_MAIN
             ::std::cerr << "Min guanine proportion antiparallel mixed motif TFOs must be a value between 0 and 100" << ::std::endl;
         if ((options.mixed_parallel_max_guanine < 0 || options.mixed_parallel_max_guanine > 100) && (stop = true))
             ::std::cerr << "Max guanine proportion parallel mixed motif TFOs must be a value between 0 and 100" << ::std::endl;
-        if ((options.minLength < 10) && (stop = true))
-            ::std::cerr << "Minimum triplex length should be greater or equal than 10. " << options.minLength << ::std::endl;
+        // if ((options.minLength < 10) && (stop = true))
+        //     ::std::cerr << "Minimum triplex length should be greater or equal than 10. " << options.minLength << ::std::endl;
         if ((options.maxLength > 1000) && (stop = true))
             ::std::cerr << "Maximum triplex length needs to be smaller or equal than 1000. " << options.maxLength << ::std::endl;
         if ((options.maxInterruptions > 3) && (stop = true))
